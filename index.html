@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/media.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header-nav">
+          <a href="#!" class="logo">Alexey</a>
+          <nav id="nav" class="nav">
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a href="#!" class="nav-link active">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#!" class="nav-link">Works</a>
+              </li>
+              <li class="nav-item">
+                <a href="#!" class="nav-link">Services</a>
+              </li>
+              <li class="nav-item">
+                <a href="#!" class="nav-link">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="#!" class="nav-link">Contact</a>
+              </li>
+            </ul>
+            <button id="nav-btn" class="nav-button">
+              <img id="nav-btn-img" src="./img/NAV.svg" alt="NAV">
+            </button>
+          </nav>
+        </div>
+        <!-- Header content -->
+        <div class="header-row">
+          <div class="header-content" data-aos="fade-right">
+            <h1 class="title">
+              Alexey Trubko <br />
+              <span>Designer & Developer</span>
+            </h1>
+            <p class="text">
+              I’m  junior FrontEnd developer
+            </p>
+            <a href="https://alexeytrubko.github.io/MyResume/" class="link-resume">My Resume</a>
+          </div>
+          <div class="header-img" data-aos="fade-left">
+
+            <picture>
+              <source media="(max-width: 550px)" srcset="./img/hero-mobile.png">
+              <img src="./img/hero.png" alt="hero" />
+            </picture>
+
+          
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="services">
+      <div class="container">
+        <div class="services-row">
+          <div class="service-card" data-aos="fade-down-right">
+            <img class="service-card-img" src="./img/graphic 1.svg" alt="" />
+            <h3 class="service-card-title">UI/UX Design</h3>
+            <p>
+              Our design is translated into comprehensive digital environments
+              built on latest development standards.
+            </p>
+          </div>
+
+          <div class="service-card" data-aos="flip-down">
+            <img class="service-card-img" src="./img/startup 1.svg" alt="" />
+            <h3 class="service-card-title">Development</h3>
+            <p>
+              Our design is translated into comprehensive digital environments
+              built on latest development standards.
+            </p>
+          </div>
+          <div class="service-card" data-aos="fade-down-left">
+            <img class="service-card-img" src="./img/newspaper.svg" alt="" />
+            <h3 class="service-card-title">software testing</h3>
+            <p>
+              Our design is translated into comprehensive digital environments
+              built on latest development standards.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="porfolio">
+      <div class="container">
+        <div class="porfolio-title">
+          <h2 class="title-1">Portfolio</h2>
+        </div>
+
+        <div class="project" data-aos="flip-up">
+          <img src="./img/Adiptiv_mobile.png" alt="" class="project-img" />
+          <h3 class="project-title">
+            <a href="https://alexeytrubko.github.io/VerstkaHTML/" target="_blank">Адаптив под мобилку</a>
+          </h3>
+        </div>
+
+        <div class="project" data-aos="flip-up">
+          <img src="./img/todo.png" alt="" class="project-img" />
+          <h3 class="project-title"><a href="https://alexeytrubko.github.io/todoToJavaScript/" target="_blank">Тудушник на JavaScript</a></h3>
+        </div>
+
+        <div class="project" data-aos="flip-up"> 
+          <img src="./img/sushi-shop.png" alt="" class="project-img" />
+          <h3 class="project-title">
+            <a href="https://alexeytrubko.github.io/sushi_shop/" target="_blank">Sushi Shop</a>
+          </h3>
+        </div>
+      </div>
+    </section>
+
+    <footer class="contacts">
+      <div class="container">
+        <div class="contacts-title">
+          <h2 class="title-1">Contacts</h2>
+          <div class="contacts-content" data-aos="fade-down">
+            <p>Want to know more or just chat? <br> You are welcome!</p>
+          </div>
+          <div class="contacts-btn" data-aos="fade-down">
+            <a href="#!" class="btn">Send Message</a>
+          </div>
+          <div class="contacts-social" data-aos="zoom-in">
+            <a href="https://www.linkedin.com/in/%D0%B0%D0%BB%D0%B5%D0%BA%D1%81%D0%B5%D0%B9-%D1%82%D1%80%D1%83%D0%B1%D0%BA%D0%BE-b6b346220" target="_blank"><img src="./img/LinkedIn.svg" alt="LinkedIn"></a>
+            <a href="https://www.instagram.com/low_kick_92/?hl=ru" target="_blank"><img src="./img/Instargam.svg" alt="instagram"></a></a>
+          </div>
+          <div class="contacts-footer" data-aos="fade-up">
+            <p>Like me on LinkedIn, Instagram</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
